@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h2{
+    text-align: center;
+}
+
+#horario{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 255);
+}
+
+
+a:hover{
+    color: rgb(58, 58, 250);
+}
